@@ -6,7 +6,7 @@ En la carpeta backend esta la api creada en con Nodejs y en la carpeta frontend 
 -- BACKEND --
 
 Esta hecho con Nodejs y utilice la version Ecm 2016
-Dentro de la carpeta backend correr el comando: npm run start
+Dentro de la carpeta backend correr el comando: npm run dev (desarrollo) npm run start (producción)
 
 -- FRONTEND --
 
