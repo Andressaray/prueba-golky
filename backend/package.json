@@ -1,0 +1,30 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "mocha --experimental-modules --es-module-specifier-resolution=node tests/app.test.js"
+  },
+  "keywords": [],
+  "author": "Andres Saray",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "standard": "*"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.12",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
